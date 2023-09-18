@@ -53,8 +53,7 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
 * Retrieved the explained variance ratio to determine how much information can be attributed to each principal component
 
 * question :What is the total explained variance of the three principal components?
-
-        The cumulative explained variance for the reduced 3 columns amounts to approximately 0.895, indicating an accuracy rating of around 90% for the            PCA-transformed data.
+   * The cumulative explained variance for the reduced 3 columns amounts to approximately 0.895, indicating an accuracy rating of around 90% for the PCA-transformed data.
   
 * Created a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
@@ -72,12 +71,10 @@ Using the elbow method on the PCA data I find the best value for k using the fol
   ![image](https://github.com/Jaynav04/CryptoClustering/assets/130405173/ade7d1cc-1bdb-4edf-9d32-f05472c0ef4a)
 
 * question: What is the best value for k when using the PCA data?
-
-        Judging from the elbow plot of the PCA-transformed data, it appears that a cluster count of 4 would be a suitable choice.
+   * Judging from the elbow plot of the PCA-transformed data, it appears that a cluster count of 4 would be a suitable choice.
   
 * question: Does it differ from the best k value found using the original data?
-
-        In fact, there is no difference, as we both have a total of 4 clusters
+   * In fact, there is no difference, as we both have a total of 4 clusters
 
 ### Creating Clusters with K-means Using the PCA Data
 Used the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
@@ -93,8 +90,7 @@ Used the following steps to cluster the cryptocurrencies for the best value for 
     ![image](https://github.com/Jaynav04/CryptoClustering/assets/130405173/c132ebf4-50f8-4c48-81cd-530be54519c3)
 
 * question: What is the impact of using fewer features to cluster the data using K-Means?
-
-         Using fewer features to analyze clusters can have many impacts.
+   * Using fewer features to analyze clusters can have many impacts.
         - The main advantages are 
         1. the increase of computational speed to analyze my original data. 
         2. is more visually appealing as the features of dimensiality are reduced
