@@ -33,7 +33,7 @@ Using the elbow method I find the best value for k using the following steps:
   ![image](https://github.com/Jaynav04/CryptoClustering/assets/130405173/da6f9279-4679-4630-b861-b5bc97dd060a)
 
 *  question: What is the best value for k?:
-  After comparing both the elbow curve and the numerical values in the dataframe representing the elbow curves, it appears that a cluster size of 4 is likely the most suitable choice.
+  - After comparing both the elbow curve and the numerical values in the dataframe representing the elbow curves, it appears that a cluster size of 4 is likely the most suitable choice.
 
 ### Creating Clusters with K-means Using the Original Scaled Data
 Used the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
